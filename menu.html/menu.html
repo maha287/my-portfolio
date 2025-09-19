@@ -1,0 +1,82 @@
+<!-- File: index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Portfolio — Maha Shankar</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<h1 class="logo">Maha Shankar</h1>
+<nav class="nav" id="nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+</div>
+</header>
+
+
+<main>
+<section class="hero">
+<div class="container">
+<h2>Hi — I'm <span class="accent">Maha</span>.</h2>
+<p class="lead">A front-end developer who builds clean, accessible, and responsive websites.</p>
+<p><a class="btn" href="#projects">See my work</a></p>
+</div>
+</section>
+
+
+<section id="about" class="container about">
+<h3>About</h3>
+<div class="about-grid">
+<img src="https://via.placeholder.com/300x300.png?text=Profile" alt="Profile" class="avatar">
+<div>
+<p>I design and code simple, beautiful websites. I like working with HTML, CSS, and JavaScript — and learning new tools along the way.</p>
+<ul>
+<li>Responsive layouts</li>
+<li>Semantic HTML & accessible UI</li>
+<li>Performance-minded</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section id="projects" class="container projects">
+<h3>Projects</h3>
+<div class="grid">
+<article class="card">
+<img src="https://via.placeholder.com/600x400.png?text=Project+1" alt="Project 1">
+<h4>Project One</h4>
+<p>Short description of the project. What it does and tech used.</p>
+<p><a href="#" class="link">View project →</a></p>
+</article>
+
+
+<article class="card">
+<img src="https://via.placeholder.com/600x400.png?text=Project+2" alt="Project 2">
+<h4>Project Two</h4>
+<p>Short description of the project. What it does and tech used.</p>
+<p><a href="#" class="link">View project →</a></p>
+</article>
+
+
+<article class="card">
+<img src="https://via.placeholder.com/600x400.png?text=Project+3" alt="Project 3">
+<h4>Project Three</h4>
+<p>Short description of the project. What it does and tech used.</p>
+<p><a href="#" class="link">View project →</a></p>
+</article>
+</div>
+</section>
+
+
+<section id="contact" class="container contact">
+<h3>Contact</h3>
+<p>If you'd like to work together or say hi, drop a message:</p>
+<form class="contact-form" onsubmit="event.preventDefault(); alert('Form demo — add backend or mailto link.');">
